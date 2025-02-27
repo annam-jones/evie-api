@@ -19,9 +19,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 
 env = environ.Env()
-env_path = os.path.join(BASE_DIR, "project", ".env")  # ✅ Explicitly set .env path
+env_path = os.path.join(BASE_DIR, "project", ".env")  
 
-if os.path.exists(env_path):  # ✅ Check if .env exists before reading
+if os.path.exists(env_path):  
     environ.Env.read_env(env_path)
 else:
     print(f"⚠️ WARNING: .env file not found at {env_path}")

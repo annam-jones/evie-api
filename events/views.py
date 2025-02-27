@@ -2,13 +2,16 @@ from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework.exceptions import NotFound
 from rest_framework.permissions import IsAuthenticated
-#from django.shortcuts import get_object_or_404
+from django.shortcuts import get_object_or_404
 from .models import Event
 from users.models import User
 from .serializers.common import EventSerializer
 from .serializers.populated import PopulatedEventSerializer
-#from users.serializers import UserSerializer
+from users.serializers.common import UserSerializer 
+from rest_framework.permissions import IsAdminUser
+
 class EventListView(APIView):
+    permission_classes = [IsAdminUser]
 
     def get(self, request):
         event_queryset = Event.objects.all()
@@ -53,3 +56,31 @@ class EventDetailView(APIView):
         event.delete()
         return Response(status=204)
     
+    
+class ToggleAttendanceView(APIView):
+    permission_classes = [IsAuthenticated] 
+
+    def post(self, request, event_id):
+        event = get_object_or_404(Event, id=event_id)
+        user = request.user
+
+        if user in event.attendees.all():
+            event.attendees.remove(user)  
+            return Response({"message": f"You have left {event.title}"}, status=200)
+
+        event.attendees.add(user) 
+        return Response({"message": f"You are now attending {event.title}"}, status=200)
+
+
+class UserProfileView(APIView):
+    permission_classes = [IsAuthenticated]  
+
+    def get(self, request):
+        user = request.user
+        events_attending = user.attending_events.all()  
+        serialized_events = EventSerializer(events_attending, many=True)
+
+        user_data = UserSerializer(user).data
+        user_data["attending_events"] = serialized_events.data  
+
+        return Response(user_data)
