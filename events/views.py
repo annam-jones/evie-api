@@ -11,23 +11,22 @@ from users.serializers.common import UserSerializer
 from rest_framework.permissions import IsAdminUser
 
 class EventListView(APIView):
-    permission_classes = [IsAdminUser]
+    permission_classes = [IsAuthenticated]  
 
     def get(self, request):
-        event_queryset = Event.objects.all()
-        event_serialized = EventSerializer(event_queryset, many=True)
-        return Response(event_serialized.data)
+        events = Event.objects.all()
+        serialized_events = EventSerializer(events, many=True)
+        return Response(serialized_events.data, status=200)
 
     def post(self, request):
+        request.data["user"] = request.user.id  
         event_serializer = EventSerializer(data=request.data)
-
         if event_serializer.is_valid():
             event_serializer.save()
             return Response(event_serializer.data, status=201)
 
-        return Response(event_serializer.errors, status=422)
-
-
+        return Response(event_serializer.errors, status=400)
+    
 class EventDetailView(APIView):
 
     def get_object(self, event_id):
