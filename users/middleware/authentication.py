@@ -10,13 +10,14 @@ class JWTAuthentication(BaseAuthentication):
     def authenticate(self, request):
         if not request.headers:
             return None
-
+        
         auth_header = request.headers.get('Authorization')
         if not auth_header:
             return None
         
+
         if not auth_header.startswith('Bearer'):
-            raise AuthenticationFailed('Auth header not a valid bearer token')
+            return None  
         
         token = auth_header.replace('Bearer ', '')
         
@@ -26,11 +27,16 @@ class JWTAuthentication(BaseAuthentication):
                 key=settings.SECRET_KEY,
                 algorithms=['HS256']
             )
-
-           
-            user = User.objects.get(id=payload['user']['id'])
-
+            
+            user = User.objects.get(id=payload['user_id'])
+            
             return (user, token)
+        except jwt.DecodeError:
+            
+            return None  
+        except jwt.ExpiredSignatureError:
+            
+            raise AuthenticationFailed('Token has expired')
         except Exception as e:
-            print(e)
-            raise AuthenticationFailed('Invalid credentials provided')
+            print(f"Authentication error: {e}")
+            return None  

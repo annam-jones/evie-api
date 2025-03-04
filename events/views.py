@@ -8,7 +8,6 @@ from users.models import User
 from .serializers.common import EventSerializer
 from .serializers.populated import PopulatedEventSerializer
 from users.serializers.common import UserSerializer 
-from rest_framework.permissions import IsAdminUser
 
 class EventListView(APIView):
     permission_classes = [IsAuthenticated]  
@@ -19,7 +18,7 @@ class EventListView(APIView):
         return Response(serialized_events.data, status=200)
 
     def post(self, request):
-        request.data["user"] = request.user.id  
+        request.data["created_by"] = request.user.id  
         event_serializer = EventSerializer(data=request.data)
         if event_serializer.is_valid():
             event_serializer.save()
@@ -28,6 +27,7 @@ class EventListView(APIView):
         return Response(event_serializer.errors, status=400)
     
 class EventDetailView(APIView):
+    permission_classes = [IsAuthenticated]
 
     def get_object(self, event_id):
         try:
@@ -42,6 +42,10 @@ class EventDetailView(APIView):
 
     def put(self, request, event_id):
         event = self.get_object(event_id)
+        
+        if event.created_by != request.user:
+            return Response({"message": "You do not have permission to edit this event"}, status=403)
+        
         serialized_event = EventSerializer(event, data=request.data, partial=True)
 
         if serialized_event.is_valid():
@@ -52,10 +56,13 @@ class EventDetailView(APIView):
 
     def delete(self, request, event_id):
         event = self.get_object(event_id)
+        
+        if event.created_by != request.user:
+            return Response({"message": "You do not have permission to delete this event"}, status=403)
+            
         event.delete()
         return Response(status=204)
-    
-    
+
 class ToggleAttendanceView(APIView):
     permission_classes = [IsAuthenticated] 
 
@@ -69,7 +76,6 @@ class ToggleAttendanceView(APIView):
 
         event.attendees.add(user) 
         return Response({"message": f"You are now attending {event.title}"}, status=200)
-
 
 class UserProfileView(APIView):
     permission_classes = [IsAuthenticated]  

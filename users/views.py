@@ -10,7 +10,6 @@ from datetime import datetime, timedelta
 User = get_user_model()
 
 
-
 class RegisterView(APIView):
 
     def post(self, request):
