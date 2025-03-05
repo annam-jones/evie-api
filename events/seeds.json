@@ -1,0 +1,282 @@
+[
+    {
+      "model": "events.event",
+      "fields": {
+        "title": "Web Development Workshop",
+        "description": "Learn the latest frontend frameworks and best practices for modern web development. This hands-on workshop will cover React, Vue, and Angular fundamentals.",
+        "date": "2025-03-15T14:00:00Z",
+        "location": "Tech Hub, 123 Innovation Blvd",
+        "category": "Technology",
+        "capacity": 50,
+        "organizer": "Dev Community Network",
+        "event_image": "https://res.cloudinary.com/dq9lsxbkh/image/upload/v1709652422/samples/landscapes/architecture-signs.jpg",
+        "created_by": 1
+      }
+    },
+    {
+      "model": "events.event",
+      "fields": {
+        "title": "AI and Machine Learning Conference",
+        "description": "Explore the cutting edge of artificial intelligence with industry leaders. Topics include neural networks, computer vision, and practical applications of ML in business.",
+        "date": "2025-03-22T09:00:00Z",
+        "location": "Grand Convention Center, 500 Main St",
+        "category": "Technology",
+        "capacity": 200,
+        "organizer": "FutureTech Institute",
+        "event_image": "https://res.cloudinary.com/dq9lsxbkh/image/upload/v1709652420/samples/animals/kitten-playing.gif",
+        "created_by": 1
+      }
+    },
+    {
+      "model": "events.event",
+      "fields": {
+        "title": "Mountain Hiking Expedition",
+        "description": "Join us for a challenging but rewarding hike up Alpine Ridge. Experienced guides will lead the way through breathtaking landscapes and scenic viewpoints.",
+        "date": "2025-03-13T07:00:00Z",
+        "location": "Alpine Ridge Trailhead, Mountain Road",
+        "category": "Outdoors",
+        "capacity": 25,
+        "organizer": "Adventure Seekers Club",
+        "event_image": "https://res.cloudinary.com/dq9lsxbkh/image/upload/v1709652416/samples/landscapes/nature-mountains.jpg",
+        "created_by": 1
+      }
+    },
+    {
+      "model": "events.event",
+      "fields": {
+        "title": "Kayaking Tour",
+        "description": "Paddle through scenic waterways and discover hidden coves on this guided kayaking tour. Suitable for beginners and experienced kayakers alike.",
+        "date": "2025-03-18T09:00:00Z",
+        "location": "Clear Lake Marina, Lakeside Drive",
+        "category": "Outdoors",
+        "capacity": 15,
+        "organizer": "Water Adventures Co.",
+        "event_image": "https://res.cloudinary.com/dq9lsxbkh/image/upload/v1709652415/samples/landscapes/beach-boat.jpg",
+        "created_by": 1
+      }
+    },
+    {
+      "model": "events.event",
+      "fields": {
+        "title": "Symphony Orchestra Performance",
+        "description": "An evening of classical masterpieces performed by the renowned Metropolitan Symphony Orchestra, featuring works by Mozart, Beethoven, and Tchaikovsky.",
+        "date": "2025-03-23T19:30:00Z",
+        "location": "Grand Concert Hall, 200 Cultural Ave",
+        "category": "Music",
+        "capacity": 300,
+        "organizer": "Metropolitan Arts Foundation",
+        "event_image": "https://res.cloudinary.com/dq9lsxbkh/image/upload/v1709652421/samples/ecommerce/accessories-bag.jpg",
+        "created_by": 1
+      }
+    },
+    {
+      "model": "events.event",
+      "fields": {
+        "title": "Jazz in the Park",
+        "description": "Experience the soulful sounds of live jazz in an intimate outdoor setting. Featuring local talent and surprise guest performers from the international jazz scene.",
+        "date": "2025-03-11T18:00:00Z",
+        "location": "City Park Bandstand",
+        "category": "Music",
+        "capacity": 75,
+        "organizer": "Jazz Appreciation Society",
+        "event_image": "https://res.cloudinary.com/dq9lsxbkh/image/upload/v1709652423/samples/food/spices.jpg",
+        "created_by": 1
+      }
+    },
+    {
+      "model": "events.event",
+      "fields": {
+        "title": "Contemporary Art Exhibition",
+        "description": "Explore thought-provoking works by emerging artists challenging conventions and exploring new media. Guided tours available throughout the day.",
+        "date": "2025-03-20T10:00:00Z",
+        "location": "Modern Art Gallery, 78 Creative St",
+        "category": "Arts",
+        "capacity": 100,
+        "organizer": "Urban Arts Collective",
+        "event_image": "https://res.cloudinary.com/dq9lsxbkh/image/upload/v1709652412/samples/imagecon-2014/car-interior.jpg",
+        "created_by": 1
+      }
+    },
+    {
+      "model": "events.event",
+      "fields": {
+        "title": "Pottery Workshop",
+        "description": "Get your hands dirty in this beginner-friendly pottery class. Learn wheel throwing techniques and basic glazing from master ceramicists.",
+        "date": "2025-03-16T14:00:00Z",
+        "location": "Clayworks Studio, 156 Artisan Ave",
+        "category": "Arts",
+        "capacity": 15,
+        "organizer": "Handcrafted Arts Center",
+        "event_image": "https://res.cloudinary.com/dq9lsxbkh/image/upload/v1709652426/samples/ecommerce/leather-bag-gray.jpg",
+        "created_by": 1
+      }
+    },
+    {
+      "model": "events.event",
+      "fields": {
+        "title": "Entrepreneurship Summit",
+        "description": "Connect with successful founders, investors, and mentors in this day-long summit designed to inspire and equip the next generation of entrepreneurs.",
+        "date": "2025-03-28T08:30:00Z",
+        "location": "Business Innovation Center, 300 Enterprise Way",
+        "category": "Business",
+        "capacity": 250,
+        "organizer": "StartUp Foundation",
+        "event_image": "https://res.cloudinary.com/dq9lsxbkh/image/upload/v1709652427/samples/people/smiling-man.jpg",
+        "created_by": 1
+      }
+    },
+    {
+      "model": "events.event",
+      "fields": {
+        "title": "Digital Marketing Masterclass",
+        "description": "Deep dive into effective strategies for social media, SEO, content marketing, and PPC campaigns. Includes practical exercises and case studies.",
+        "date": "2025-03-17T10:00:00Z",
+        "location": "Virtual Event",
+        "category": "Business",
+        "capacity": 100,
+        "organizer": "Growth Hackers Alliance",
+        "event_image": "https://res.cloudinary.com/dq9lsxbkh/image/upload/v1709652425/samples/cloudinary-group.jpg",
+        "created_by": 1
+      }
+    },
+    {
+      "model": "events.event",
+      "fields": {
+        "title": "Neighborhood Clean-up Day",
+        "description": "Join fellow residents in beautifying our community. Cleaning supplies provided, along with refreshments for all volunteers.",
+        "date": "2025-03-19T09:00:00Z",
+        "location": "Community Park, North Entrance",
+        "category": "Community",
+        "capacity": 100,
+        "organizer": "Neighborhood Association",
+        "event_image": "https://res.cloudinary.com/dq9lsxbkh/image/upload/v1709652425/samples/food/dessert.jpg",
+        "created_by": 1
+      }
+    },
+    {
+      "model": "events.event",
+      "fields": {
+        "title": "Farmers Market",
+        "description": "Shop fresh, local produce and artisanal goods directly from farmers and makers. Live music and food trucks on site.",
+        "date": "2025-03-12T08:00:00Z",
+        "location": "Town Square",
+        "category": "Community",
+        "capacity": 500,
+        "organizer": "Local Food Alliance",
+        "event_image": "https://res.cloudinary.com/dq9lsxbkh/image/upload/v1709652424/samples/food/pot-mussels.jpg",
+        "created_by": 1
+      }
+    },
+    {
+      "model": "events.event",
+      "fields": {
+        "title": "Charity 5K Run/Walk",
+        "description": "Run or walk to support cancer research. Course suitable for all fitness levels. Registration includes t-shirt and finisher medal.",
+        "date": "2025-03-22T08:00:00Z",
+        "location": "Riverside Park, Running Trail",
+        "category": "Sports",
+        "capacity": 300,
+        "organizer": "Health Foundation",
+        "event_image": "https://res.cloudinary.com/dq9lsxbkh/image/upload/v1709652422/samples/people/bicycle.jpg",
+        "created_by": 1
+      }
+    },
+    {
+      "model": "events.event",
+      "fields": {
+        "title": "Yoga in the Park",
+        "description": "Start your Sunday with an energizing yoga session suitable for all levels. Please bring your own mat and water bottle.",
+        "date": "2025-03-13T08:30:00Z",
+        "location": "Meditation Garden, West Park",
+        "category": "Sports",
+        "capacity": 30,
+        "organizer": "Mindful Movement Studio",
+        "event_image": "https://res.cloudinary.com/dq9lsxbkh/image/upload/v1709652413/samples/people/kitchen-bar.jpg",
+        "created_by": 1
+      }
+    },
+    {
+      "model": "events.event",
+      "fields": {
+        "title": "International Food Festival",
+        "description": "Sample cuisines from around the world at over 40 food stalls. Cultural performances and cooking demonstrations throughout the day.",
+        "date": "2025-03-24T11:00:00Z",
+        "location": "Cultural Center Plaza",
+        "category": "Food",
+        "capacity": 2000,
+        "organizer": "Culinary Arts Society",
+        "event_image": "https://res.cloudinary.com/dq9lsxbkh/image/upload/v1709652419/samples/landscapes/girl-urban-view.jpg",
+        "created_by": 1
+      }
+    },
+    {
+      "model": "events.event",
+      "fields": {
+        "title": "Wine Tasting Evening",
+        "description": "Explore a curated selection of premium wines paired with artisanal cheeses and chocolates. Expert sommeliers will guide the experience.",
+        "date": "2025-03-14T19:00:00Z",
+        "location": "Vineyard Cellar, 78 Grape Lane",
+        "category": "Food",
+        "capacity": 40,
+        "organizer": "Wine Enthusiasts Club",
+        "event_image": "https://res.cloudinary.com/dq9lsxbkh/image/upload/v1709652418/samples/ecommerce/shoes.png",
+        "created_by": 1
+      }
+    },
+    {
+      "model": "events.event",
+      "fields": {
+        "title": "Public Speaking Workshop",
+        "description": "Overcome stage fright and develop confident presentation skills. Includes practical exercises and personalized feedback.",
+        "date": "2025-03-21T10:00:00Z",
+        "location": "Business Center, Conference Room B",
+        "category": "Education",
+        "capacity": 25,
+        "organizer": "Communication Skills Institute",
+        "event_image": "https://res.cloudinary.com/dq9lsxbkh/image/upload/v1709652412/samples/people/boy-snow-hoodie.jpg",
+        "created_by": 1
+      }
+    },
+    {
+      "model": "events.event",
+      "fields": {
+        "title": "Financial Literacy Seminar",
+        "description": "Learn practical strategies for budgeting, investing, and building long-term wealth. Includes workbook and online resources.",
+        "date": "2025-03-18T18:00:00Z",
+        "location": "Community College, Room 210",
+        "category": "Education",
+        "capacity": 50,
+        "organizer": "Financial Freedom Foundation",
+        "event_image": "https://res.cloudinary.com/dq9lsxbkh/image/upload/v1709652421/samples/animals/three-dogs.jpg",
+        "created_by": 1
+      }
+    },
+    {
+      "model": "events.event",
+      "fields": {
+        "title": "Pet Adoption Fair",
+        "description": "Meet adoptable dogs, cats, and other pets from local shelters and rescue organizations. Adoption counselors on site to answer questions.",
+        "date": "2025-03-16T10:00:00Z",
+        "location": "City Park Pavilion",
+        "category": "Other",
+        "capacity": 200,
+        "organizer": "Animal Rescue Coalition",
+        "event_image": "https://res.cloudinary.com/dq9lsxbkh/image/upload/v1709652421/samples/animals/cat.jpg",
+        "created_by": 1
+      }
+    },
+    {
+      "model": "events.event",
+      "fields": {
+        "title": "Vintage Car Show",
+        "description": "Admire rare and beautifully restored classic cars from the 1920s to the 1970s. Vehicle owners will be present to share stories and history.",
+        "date": "2025-03-25T09:00:00Z",
+        "location": "Fairgrounds, North Lot",
+        "category": "Other",
+        "capacity": 300,
+        "organizer": "Classic Auto Club",
+        "event_image": "https://res.cloudinary.com/dq9lsxbkh/image/upload/v1709652417/cld-sample.jpg",
+        "created_by": 1
+      }
+    }
+  ]

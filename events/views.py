@@ -43,7 +43,8 @@ class EventDetailView(APIView):
     def put(self, request, event_id):
         event = self.get_object(event_id)
         
-        if event.created_by != request.user:
+        
+        if event.created_by.id != request.user.id:  
             return Response({"message": "You do not have permission to edit this event"}, status=403)
         
         serialized_event = EventSerializer(event, data=request.data, partial=True)
@@ -57,7 +58,8 @@ class EventDetailView(APIView):
     def delete(self, request, event_id):
         event = self.get_object(event_id)
         
-        if event.created_by != request.user:
+       
+        if event.created_by.id != request.user.id:
             return Response({"message": "You do not have permission to delete this event"}, status=403)
             
         event.delete()

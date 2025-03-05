@@ -17,7 +17,6 @@ from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-
 env = environ.Env()
 env_path = os.path.join(BASE_DIR, "project", ".env")  
 

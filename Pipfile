@@ -12,6 +12,8 @@ pyjwt = "*"
 django-environ = "*"
 django-cors-headers = "*"
 django = "*"
+cloudinary = "*"
+python-dotenv = "*"
 
 [dev-packages]
 
