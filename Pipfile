@@ -14,6 +14,7 @@ django = "*"
 django-cors-headers = "*"
 django-environ = "*"
 djangorestframework = "*"
+whitenoise = "*"
 
 [dev-packages]
 
