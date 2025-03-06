@@ -50,14 +50,14 @@ if DEBUG:
     ]
 
 else:
-    ALLOWED_HOSTS = ['https://evie-api-cf6e6bc92b57.herokuapp.com'] # don't include the protocol (https://)
+    ALLOWED_HOSTS = ['evie-api-cf6e6bc92b57.herokuapp.com'] # don't include the protocol (https://)
 
     CORS_ALLOWED_ORIGINS = [
         "https://your-frontend.com", # Deployed frontend url only
     ]
 
     CSRF_TRUSTED_ORIGINS = [
-        "https://your-backend.herokuapp.com", # Deployed backend url only
+        "'evie-api-cf6e6bc92b57.herokuapp.com'", # Deployed backend url only
     ]
 
 CORS_ALLOW_HEADERS = ["authorization"]  # Sometimes needed for JWT authentication
