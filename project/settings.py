@@ -57,7 +57,7 @@ else:
     ]
 
     CSRF_TRUSTED_ORIGINS = [
-        "'evie-api-cf6e6bc92b57.herokuapp.com'", # Deployed backend url only
+        "https://evie-api-cf6e6bc92b57.herokuapp.com", # Deployed backend url only
     ]
 
 CORS_ALLOW_HEADERS = ["authorization"]  # Sometimes needed for JWT authentication
