@@ -7,13 +7,13 @@ name = "pypi"
 pylint = "*"
 autopep8 = "*"
 psycopg2-binary = "*"
-djangorestframework = "*"
 pyjwt = "*"
-django-environ = "*"
-django-cors-headers = "*"
-django = "*"
 cloudinary = "*"
 python-dotenv = "*"
+django = "*"
+django-cors-headers = "*"
+django-environ = "*"
+djangorestframework = "*"
 
 [dev-packages]
 

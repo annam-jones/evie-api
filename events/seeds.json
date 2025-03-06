@@ -1,282 +1,322 @@
 [
     {
       "model": "events.event",
+      "pk": 1,
       "fields": {
-        "title": "Web Development Workshop",
-        "description": "Learn the latest frontend frameworks and best practices for modern web development. This hands-on workshop will cover React, Vue, and Angular fundamentals.",
-        "date": "2025-03-15T14:00:00Z",
-        "location": "Tech Hub, 123 Innovation Blvd",
+        "title": "Future of AI Summit: London",
+        "description": "London's most exclusive tech gathering featuring pioneering AI startups, interactive demos of cutting-edge neural interfaces, and after-hours networking at The Shard with London's tech elite.",
+        "date": "2025-05-22T10:00:00Z",
+        "location": "Design Museum, Kensington",
         "category": "Technology",
-        "capacity": 50,
-        "organizer": "Dev Community Network",
-        "event_image": "https://res.cloudinary.com/dq9lsxbkh/image/upload/v1709652422/samples/landscapes/architecture-signs.jpg",
-        "created_by": 1
+        "capacity": 350,
+        "organizer": "London Tech Collective",
+        "event_image": "https://images.unsplash.com/photo-1558346490-a72e53ae2d4f?q=80&w=1200",
+        "created_by": 3,
+        "attendees": [4, 7, 12]
       }
     },
     {
       "model": "events.event",
+      "pk": 2,
       "fields": {
-        "title": "AI and Machine Learning Conference",
-        "description": "Explore the cutting edge of artificial intelligence with industry leaders. Topics include neural networks, computer vision, and practical applications of ML in business.",
-        "date": "2025-03-22T09:00:00Z",
-        "location": "Grand Convention Center, 500 Main St",
-        "category": "Technology",
-        "capacity": 200,
-        "organizer": "FutureTech Institute",
-        "event_image": "https://res.cloudinary.com/dq9lsxbkh/image/upload/v1709652420/samples/animals/kitten-playing.gif",
-        "created_by": 1
-      }
-    },
-    {
-      "model": "events.event",
-      "fields": {
-        "title": "Mountain Hiking Expedition",
-        "description": "Join us for a challenging but rewarding hike up Alpine Ridge. Experienced guides will lead the way through breathtaking landscapes and scenic viewpoints.",
-        "date": "2025-03-13T07:00:00Z",
-        "location": "Alpine Ridge Trailhead, Mountain Road",
+        "title": "Moonlight Kayaking on the Thames",
+        "description": "An ethereal nighttime paddle along the Thames, passing iconic London landmarks illuminated against the night sky. Concludes with artisanal hot toddies at a riverside pop-up bar.",
+        "date": "2025-06-18T21:30:00Z",
+        "location": "Embankment Pier, Westminster",
         "category": "Outdoors",
-        "capacity": 25,
-        "organizer": "Adventure Seekers Club",
-        "event_image": "https://res.cloudinary.com/dq9lsxbkh/image/upload/v1709652416/samples/landscapes/nature-mountains.jpg",
-        "created_by": 1
-      }
-    },
-    {
-      "model": "events.event",
-      "fields": {
-        "title": "Kayaking Tour",
-        "description": "Paddle through scenic waterways and discover hidden coves on this guided kayaking tour. Suitable for beginners and experienced kayakers alike.",
-        "date": "2025-03-18T09:00:00Z",
-        "location": "Clear Lake Marina, Lakeside Drive",
-        "category": "Outdoors",
-        "capacity": 15,
-        "organizer": "Water Adventures Co.",
-        "event_image": "https://res.cloudinary.com/dq9lsxbkh/image/upload/v1709652415/samples/landscapes/beach-boat.jpg",
-        "created_by": 1
-      }
-    },
-    {
-      "model": "events.event",
-      "fields": {
-        "title": "Symphony Orchestra Performance",
-        "description": "An evening of classical masterpieces performed by the renowned Metropolitan Symphony Orchestra, featuring works by Mozart, Beethoven, and Tchaikovsky.",
-        "date": "2025-03-23T19:30:00Z",
-        "location": "Grand Concert Hall, 200 Cultural Ave",
-        "category": "Music",
-        "capacity": 300,
-        "organizer": "Metropolitan Arts Foundation",
-        "event_image": "https://res.cloudinary.com/dq9lsxbkh/image/upload/v1709652421/samples/ecommerce/accessories-bag.jpg",
-        "created_by": 1
-      }
-    },
-    {
-      "model": "events.event",
-      "fields": {
-        "title": "Jazz in the Park",
-        "description": "Experience the soulful sounds of live jazz in an intimate outdoor setting. Featuring local talent and surprise guest performers from the international jazz scene.",
-        "date": "2025-03-11T18:00:00Z",
-        "location": "City Park Bandstand",
-        "category": "Music",
-        "capacity": 75,
-        "organizer": "Jazz Appreciation Society",
-        "event_image": "https://res.cloudinary.com/dq9lsxbkh/image/upload/v1709652423/samples/food/spices.jpg",
-        "created_by": 1
-      }
-    },
-    {
-      "model": "events.event",
-      "fields": {
-        "title": "Contemporary Art Exhibition",
-        "description": "Explore thought-provoking works by emerging artists challenging conventions and exploring new media. Guided tours available throughout the day.",
-        "date": "2025-03-20T10:00:00Z",
-        "location": "Modern Art Gallery, 78 Creative St",
-        "category": "Arts",
-        "capacity": 100,
-        "organizer": "Urban Arts Collective",
-        "event_image": "https://res.cloudinary.com/dq9lsxbkh/image/upload/v1709652412/samples/imagecon-2014/car-interior.jpg",
-        "created_by": 1
-      }
-    },
-    {
-      "model": "events.event",
-      "fields": {
-        "title": "Pottery Workshop",
-        "description": "Get your hands dirty in this beginner-friendly pottery class. Learn wheel throwing techniques and basic glazing from master ceramicists.",
-        "date": "2025-03-16T14:00:00Z",
-        "location": "Clayworks Studio, 156 Artisan Ave",
-        "category": "Arts",
-        "capacity": 15,
-        "organizer": "Handcrafted Arts Center",
-        "event_image": "https://res.cloudinary.com/dq9lsxbkh/image/upload/v1709652426/samples/ecommerce/leather-bag-gray.jpg",
-        "created_by": 1
-      }
-    },
-    {
-      "model": "events.event",
-      "fields": {
-        "title": "Entrepreneurship Summit",
-        "description": "Connect with successful founders, investors, and mentors in this day-long summit designed to inspire and equip the next generation of entrepreneurs.",
-        "date": "2025-03-28T08:30:00Z",
-        "location": "Business Innovation Center, 300 Enterprise Way",
-        "category": "Business",
-        "capacity": 250,
-        "organizer": "StartUp Foundation",
-        "event_image": "https://res.cloudinary.com/dq9lsxbkh/image/upload/v1709652427/samples/people/smiling-man.jpg",
-        "created_by": 1
-      }
-    },
-    {
-      "model": "events.event",
-      "fields": {
-        "title": "Digital Marketing Masterclass",
-        "description": "Deep dive into effective strategies for social media, SEO, content marketing, and PPC campaigns. Includes practical exercises and case studies.",
-        "date": "2025-03-17T10:00:00Z",
-        "location": "Virtual Event",
-        "category": "Business",
-        "capacity": 100,
-        "organizer": "Growth Hackers Alliance",
-        "event_image": "https://res.cloudinary.com/dq9lsxbkh/image/upload/v1709652425/samples/cloudinary-group.jpg",
-        "created_by": 1
-      }
-    },
-    {
-      "model": "events.event",
-      "fields": {
-        "title": "Neighborhood Clean-up Day",
-        "description": "Join fellow residents in beautifying our community. Cleaning supplies provided, along with refreshments for all volunteers.",
-        "date": "2025-03-19T09:00:00Z",
-        "location": "Community Park, North Entrance",
-        "category": "Community",
-        "capacity": 100,
-        "organizer": "Neighborhood Association",
-        "event_image": "https://res.cloudinary.com/dq9lsxbkh/image/upload/v1709652425/samples/food/dessert.jpg",
-        "created_by": 1
-      }
-    },
-    {
-      "model": "events.event",
-      "fields": {
-        "title": "Farmers Market",
-        "description": "Shop fresh, local produce and artisanal goods directly from farmers and makers. Live music and food trucks on site.",
-        "date": "2025-03-12T08:00:00Z",
-        "location": "Town Square",
-        "category": "Community",
-        "capacity": 500,
-        "organizer": "Local Food Alliance",
-        "event_image": "https://res.cloudinary.com/dq9lsxbkh/image/upload/v1709652424/samples/food/pot-mussels.jpg",
-        "created_by": 1
-      }
-    },
-    {
-      "model": "events.event",
-      "fields": {
-        "title": "Charity 5K Run/Walk",
-        "description": "Run or walk to support cancer research. Course suitable for all fitness levels. Registration includes t-shirt and finisher medal.",
-        "date": "2025-03-22T08:00:00Z",
-        "location": "Riverside Park, Running Trail",
-        "category": "Sports",
-        "capacity": 300,
-        "organizer": "Health Foundation",
-        "event_image": "https://res.cloudinary.com/dq9lsxbkh/image/upload/v1709652422/samples/people/bicycle.jpg",
-        "created_by": 1
-      }
-    },
-    {
-      "model": "events.event",
-      "fields": {
-        "title": "Yoga in the Park",
-        "description": "Start your Sunday with an energizing yoga session suitable for all levels. Please bring your own mat and water bottle.",
-        "date": "2025-03-13T08:30:00Z",
-        "location": "Meditation Garden, West Park",
-        "category": "Sports",
-        "capacity": 30,
-        "organizer": "Mindful Movement Studio",
-        "event_image": "https://res.cloudinary.com/dq9lsxbkh/image/upload/v1709652413/samples/people/kitchen-bar.jpg",
-        "created_by": 1
-      }
-    },
-    {
-      "model": "events.event",
-      "fields": {
-        "title": "International Food Festival",
-        "description": "Sample cuisines from around the world at over 40 food stalls. Cultural performances and cooking demonstrations throughout the day.",
-        "date": "2025-03-24T11:00:00Z",
-        "location": "Cultural Center Plaza",
-        "category": "Food",
-        "capacity": 2000,
-        "organizer": "Culinary Arts Society",
-        "event_image": "https://res.cloudinary.com/dq9lsxbkh/image/upload/v1709652419/samples/landscapes/girl-urban-view.jpg",
-        "created_by": 1
-      }
-    },
-    {
-      "model": "events.event",
-      "fields": {
-        "title": "Wine Tasting Evening",
-        "description": "Explore a curated selection of premium wines paired with artisanal cheeses and chocolates. Expert sommeliers will guide the experience.",
-        "date": "2025-03-14T19:00:00Z",
-        "location": "Vineyard Cellar, 78 Grape Lane",
-        "category": "Food",
         "capacity": 40,
-        "organizer": "Wine Enthusiasts Club",
-        "event_image": "https://res.cloudinary.com/dq9lsxbkh/image/upload/v1709652418/samples/ecommerce/shoes.png",
-        "created_by": 1
+        "organizer": "Urban Wild Expeditions",
+        "event_image": "https://images.unsplash.com/photo-1526495124232-a04e1849168c?q=80&w=1200",
+        "created_by": 5,
+        "attendees": [6, 9]
       }
     },
     {
       "model": "events.event",
+      "pk": 3,
       "fields": {
-        "title": "Public Speaking Workshop",
-        "description": "Overcome stage fright and develop confident presentation skills. Includes practical exercises and personalized feedback.",
-        "date": "2025-03-21T10:00:00Z",
-        "location": "Business Center, Conference Room B",
-        "category": "Education",
-        "capacity": 25,
-        "organizer": "Communication Skills Institute",
-        "event_image": "https://res.cloudinary.com/dq9lsxbkh/image/upload/v1709652412/samples/people/boy-snow-hoodie.jpg",
-        "created_by": 1
+        "title": "Underground Jazz & Electronica Fusion",
+        "description": "A boundary-pushing night where London's jazz prodigies collaborate with electronic music producers in an abandoned Victorian bathhouse. Limited tickets, location revealed 24 hours before event.",
+        "date": "2025-07-12T22:00:00Z",
+        "location": "Secret Location, East London",
+        "category": "Music",
+        "capacity": 250,
+        "organizer": "Frequency Collective",
+        "event_image": "https://images.unsplash.com/photo-1511192336575-5a79af67a629?q=80&w=1200",
+        "created_by": 2,
+        "attendees": [4, 8, 11, 15]
       }
     },
     {
       "model": "events.event",
+      "pk": 4,
       "fields": {
-        "title": "Financial Literacy Seminar",
-        "description": "Learn practical strategies for budgeting, investing, and building long-term wealth. Includes workbook and online resources.",
-        "date": "2025-03-18T18:00:00Z",
-        "location": "Community College, Room 210",
-        "category": "Education",
-        "capacity": 50,
-        "organizer": "Financial Freedom Foundation",
-        "event_image": "https://res.cloudinary.com/dq9lsxbkh/image/upload/v1709652421/samples/animals/three-dogs.jpg",
-        "created_by": 1
+        "title": "Neon Dreams: Immersive Art Experience",
+        "description": "Step into a multisensory digital art installation where AI-generated visuals respond to your movements. Features work from London's most avant-garde digital artists with soundscapes by cult electronic musicians.",
+        "date": "2025-04-30T18:30:00Z",
+        "location": "180 The Strand",
+        "category": "Arts",
+        "capacity": 180,
+        "organizer": "Future Visions Gallery",
+        "event_image": "https://images.unsplash.com/photo-1550684376-efcbd6e3f031?q=80&w=1200",
+        "created_by": 7,
+        "attendees": [3, 10]
       }
     },
     {
       "model": "events.event",
+      "pk": 5,
       "fields": {
-        "title": "Pet Adoption Fair",
-        "description": "Meet adoptable dogs, cats, and other pets from local shelters and rescue organizations. Adoption counselors on site to answer questions.",
-        "date": "2025-03-16T10:00:00Z",
-        "location": "City Park Pavilion",
-        "category": "Other",
-        "capacity": 200,
-        "organizer": "Animal Rescue Coalition",
-        "event_image": "https://res.cloudinary.com/dq9lsxbkh/image/upload/v1709652421/samples/animals/cat.jpg",
-        "created_by": 1
-      }
-    },
-    {
-      "model": "events.event",
-      "fields": {
-        "title": "Vintage Car Show",
-        "description": "Admire rare and beautifully restored classic cars from the 1920s to the 1970s. Vehicle owners will be present to share stories and history.",
-        "date": "2025-03-25T09:00:00Z",
-        "location": "Fairgrounds, North Lot",
-        "category": "Other",
+        "title": "Sustainable Luxury: Fashion Forward",
+        "description": "London's first carbon-negative fashion showcase featuring emerging designers pioneering sustainable luxury. With celebrity panel discussions, upcycling workshops, and ethical investment opportunities.",
+        "date": "2025-09-08T13:00:00Z",
+        "location": "Truman Brewery, Brick Lane",
+        "category": "Business",
         "capacity": 300,
-        "organizer": "Classic Auto Club",
-        "event_image": "https://res.cloudinary.com/dq9lsxbkh/image/upload/v1709652417/cld-sample.jpg",
-        "created_by": 1
+        "organizer": "Conscious Capital Ventures",
+        "event_image": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?q=80&w=1200",
+        "created_by": 4,
+        "attendees": [2, 9, 14]
+      }
+    },
+    {
+      "model": "events.event",
+      "pk": 6,
+      "fields": {
+        "title": "Hackney Urban Garden Transformation",
+        "description": "Join London's guerrilla gardening movement to transform a neglected urban space into a wildflower meadow and community garden. Afterparty with local craft beers and DJs at nearby railway arch.",
+        "date": "2025-04-12T10:00:00Z",
+        "location": "Hackney Wick",
+        "category": "Community",
+        "capacity": null,
+        "organizer": "Green East Collective",
+        "event_image": "https://images.unsplash.com/photo-1466692476655-ab0c26c69cbf?q=80&w=1200",
+        "created_by": 8,
+        "attendees": [5, 7, 11, 13]
+      }
+    },
+    {
+      "model": "events.event",
+      "pk": 7,
+      "fields": {
+        "title": "Rooftop Yoga & Silent Disco Marathon",
+        "description": "A 12-hour wellness and movement extravaganza atop one of London's highest rooftops. Sunrise yoga, meditation sessions, plant-based brunch, and evolving into a silent disco as the sun sets over the city.",
+        "date": "2025-06-21T05:30:00Z",
+        "location": "Sky Garden, Fenchurch Street",
+        "category": "Sports",
+        "capacity": 120,
+        "organizer": "Elevate Collective",
+        "event_image": "https://images.unsplash.com/photo-1593810450967-f9c2f5093ba0?q=80&w=1200",
+        "created_by": 6,
+        "attendees": [3, 8, 12]
+      }
+    },
+    {
+      "model": "events.event",
+      "pk": 8,
+      "fields": {
+        "title": "Michelin Meets Street: Culinary Crossover",
+        "description": "A one-night gastronomic experiment where Michelin-starred chefs collaborate with London's legendary street food vendors to create boundary-breaking fusion dishes. Includes natural wine pairings from urban vineyards.",
+        "date": "2025-08-05T19:00:00Z",
+        "location": "Borough Market, Southwark",
+        "category": "Food",
+        "capacity": 200,
+        "organizer": "Taste Revolutionaries",
+        "event_image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?q=80&w=1200",
+        "created_by": 3,
+        "attendees": [4, 7, 10, 15]
+      }
+    },
+    {
+      "model": "events.event",
+      "pk": 9,
+      "fields": {
+        "title": "Quantum Computing Masterclass",
+        "description": "Exclusive hands-on workshop with quantum computing pioneers. Learn to program actual quantum processors and explore how they're reshaping everything from cryptography to medicine. No prior quantum knowledge required.",
+        "date": "2025-05-17T09:30:00Z",
+        "location": "Imperial College London",
+        "category": "Education",
+        "capacity": 30,
+        "organizer": "Quantum Futures Institute",
+        "event_image": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?q=80&w=1200",
+        "created_by": 2,
+        "attendees": [6, 9, 14]
+      }
+    },
+    {
+      "model": "events.event",
+      "pk": 10,
+      "fields": {
+        "title": "Zero-Waste Fashion Swap Soirée",
+        "description": "London's most stylish clothing exchange in a Victorian conservatory. Bring premium pieces you no longer wear, swap with other fashion-forward Londoners, with on-site alterations by design students. DJ sets and craft cocktails throughout.",
+        "date": "2025-04-25T18:00:00Z",
+        "location": "Barbican Conservatory",
+        "category": "Other",
+        "capacity": 150,
+        "organizer": "Sustainable Style Collective",
+        "event_image": "https://images.unsplash.com/photo-1562157873-818bc0726f68?q=80&w=1200",
+        "created_by": 5,
+        "attendees": [7, 11, 13]
+      }
+    },
+    {
+      "model": "events.event",
+      "pk": 11,
+      "fields": {
+        "title": "Biohacking & Human Enhancement Expo",
+        "description": "Explore the cutting edge of human potential with demonstrations of neuro-enhancement tech, bio-wearables, and genetic modification discussions. Features London's most renowned biohackers and medical futurists.",
+        "date": "2025-10-15T10:00:00Z",
+        "location": "Science Museum, South Kensington",
+        "category": "Technology",
+        "capacity": 400,
+        "organizer": "Human 2.0 Collective",
+        "event_image": "https://images.unsplash.com/photo-1569437061241-a848be43cc82?q=80&w=1200",
+        "created_by": 4,
+        "attendees": [3, 8, 12]
+      }
+    },
+    {
+      "model": "events.event",
+      "pk": 12,
+      "fields": {
+        "title": "Dawn Wild Swimming Club: Serpentine Edition",
+        "description": "Join London's most dedicated wild swimmers for a sunrise dip in the Serpentine, followed by Finnish-style mobile saunas and a gourmet breakfast picnic prepared by a former Ottolenghi chef.",
+        "date": "2025-07-06T04:30:00Z",
+        "location": "Serpentine Lido, Hyde Park",
+        "category": "Outdoors",
+        "capacity": 40,
+        "organizer": "London Wild Swimmers",
+        "event_image": "https://images.unsplash.com/photo-1622401444319-e3aaacd3cd5c?q=80&w=1200",
+        "created_by": 7,
+        "attendees": [5, 10]
+      }
+    },
+    {
+      "model": "events.event",
+      "pk": 13,
+      "fields": {
+        "title": "Vinyl & Vintage: Underground Record Fair",
+        "description": "London's most respected record collectors and vintage audio dealers gather in a converted power station. Hunt for rare vinyl, test vintage hi-fi equipment, and enjoy live DJ sets from legendary selectors.",
+        "date": "2025-09-27T11:00:00Z",
+        "location": "Battersea Power Station",
+        "category": "Music",
+        "capacity": 500,
+        "organizer": "Wax Collective",
+        "event_image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1200",
+        "created_by": 3,
+        "attendees": [6, 9, 14]
+      }
+    },
+    {
+      "model": "events.event",
+      "pk": 14,
+      "fields": {
+        "title": "Brutalist London: Architectural Photography Masterclass",
+        "description": "Capture London's iconic brutalist architecture with guidance from award-winning architectural photographers. Includes exclusive access to normally closed buildings and professional editing workshop.",
+        "date": "2025-05-10T08:00:00Z",
+        "location": "Barbican Centre",
+        "category": "Arts",
+        "capacity": 25,
+        "organizer": "Concrete Perspectives",
+        "event_image": "https://images.unsplash.com/photo-1517423568366-8b83523034fd?q=80&w=1200",
+        "created_by": 6,
+        "attendees": [2, 11]
+      }
+    },
+    {
+      "model": "events.event",
+      "pk": 15,
+      "fields": {
+        "title": "Cryptocurrency & Digital Asset Summit",
+        "description": "London's premier gathering of crypto innovators, DeFi architects, and digital asset investors. Special focus on emerging regulation and sustainable blockchain technologies.",
+        "date": "2025-06-10T09:00:00Z",
+        "location": "Level39, Canary Wharf",
+        "category": "Business",
+        "capacity": 200,
+        "organizer": "Digital Asset Alliance",
+        "event_image": "https://images.unsplash.com/photo-1639762681057-408e52192e55?q=80&w=1200",
+        "created_by": 8,
+        "attendees": [3, 7, 12]
+      }
+    },
+    {
+      "model": "events.event",
+      "pk": 16,
+      "fields": {
+        "title": "Multicultural London: Hidden Histories Tour",
+        "description": "Discover the untold stories of London's diverse communities through an immersive walking tour led by local historians and community elders. Concludes with a community feast featuring dishes from all represented cultures.",
+        "date": "2025-07-26T10:00:00Z",
+        "location": "Starting at Brixton Market",
+        "category": "Community",
+        "capacity": 35,
+        "organizer": "London Heritage Collective",
+        "event_image": "https://images.unsplash.com/photo-1533652475678-62c8f7668672?q=80&w=1200",
+        "created_by": 5,
+        "attendees": [4, 9, 13, 15]
+      }
+    },
+    {
+      "model": "events.event",
+      "pk": 17,
+      "fields": {
+        "title": "Parkour & Urban Movement Festival",
+        "description": "London's most skilled parkour artists, urban dancers, and movement specialists gather for performances, workshops, and friendly competitions across specially designed urban obstacles.",
+        "date": "2025-08-16T11:00:00Z",
+        "location": "Queen Elizabeth Olympic Park",
+        "category": "Sports",
+        "capacity": 300,
+        "organizer": "Urban Motion Collective",
+        "event_image": "https://images.unsplash.com/photo-1516475429286-465d815a0df7?q=80&w=1200",
+        "created_by": 2,
+        "attendees": [6, 10, 14]
+      }
+    },
+    {
+      "model": "events.event",
+      "pk": 18,
+      "fields": {
+        "title": "Fermentation Festival: Living Foods",
+        "description": "Explore the world of fermentation with London's most innovative food scientists and chefs. Workshops on kombucha brewing, sourdough cultivation, and natural wine making. Includes unlimited tastings and starter cultures to take home.",
+        "date": "2025-05-31T12:00:00Z",
+        "location": "Tobacco Dock, Wapping",
+        "category": "Food",
+        "capacity": 250,
+        "organizer": "Microbial Magic Collective",
+        "event_image": "https://images.unsplash.com/photo-1621955964441-c173e01c135f?q=80&w=1200",
+        "created_by": 7,
+        "attendees": [3, 8, 15]
+      }
+    },
+    {
+      "model": "events.event",
+      "pk": 19,
+      "fields": {
+        "title": "Future of Work: Four-Day Week Summit",
+        "description": "Leading thinkers on workplace innovation gather to share practical insights on implementing four-day work weeks, productivity enhancement, and organizational wellbeing. Includes case studies from London companies who've made the switch.",
+        "date": "2025-09-19T09:00:00Z",
+        "location": "Southbank Centre",
+        "category": "Education",
+        "capacity": 200,
+        "organizer": "Work Revolution Institute",
+        "event_image": "https://images.unsplash.com/photo-1572025442646-866d16c84a54?q=80&w=1200",
+        "created_by": 4,
+        "attendees": [2, 7, 13]
+      }
+    },
+    {
+      "model": "events.event",
+      "pk": 20,
+      "fields": {
+        "title": "London After Hours: Urban Exploration",
+        "description": "A carefully curated nocturnal adventure through London's hidden spaces, forgotten tunnels, and secret gardens. Led by urban historians and access specialists. Location disclosed to confirmed participants only.",
+        "date": "2025-06-28T22:00:00Z",
+        "location": "Meeting point in Central London",
+        "category": "Other",
+        "capacity": 20,
+        "organizer": "Hidden London Collective",
+        "event_image": "https://images.unsplash.com/photo-1553547274-0df401ae03c9?q=80&w=1200",
+        "created_by": 6,
+        "attendees": [5, 9, 14]
       }
     }
   ]
